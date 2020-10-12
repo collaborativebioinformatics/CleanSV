@@ -10,7 +10,9 @@ Then on `dx login`:
 
 `dx ssh-config`
 
-Click Enter and choose the defaults, worked for me.
+Type `0`, and write '24h' for 24hr job run.
+
+Type Enter and choose the other defaults, worked for me.
 
 Then:
 
