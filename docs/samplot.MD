@@ -16,8 +16,10 @@ conda config --add channels conda-forge
 
 Install `samplot` and `tabix`:
 
-`conda install -c bioconda samplot`
-`conda install -c bioconda samtools=1.11`
+```
+conda install -c bioconda samplot
+conda install -c bioconda samtools=1.11
+```
 
 Download the sample `.bam` I uploaded:
 
