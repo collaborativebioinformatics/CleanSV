@@ -16,8 +16,9 @@ Type Enter and choose the other defaults, worked for me.
 
 Then:
 
-`dx select cleanSV`
 `dx run app-cloud_workstation --ssh`
+
+`dx select cleanSV`
 
 To get access to the files we uploaded to the DNAnexus platform:
 
