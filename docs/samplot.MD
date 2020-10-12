@@ -47,7 +47,7 @@ Upload the result with:
 
 `dx upload 20_622510-6230640.png`
 
-To investigate the reads on the command line:
+To investigate the reads on the command line (http://oliverelliott.org/article/bioinformatics/wik_bioinform/10/):
 
 ```
 samtools view -b HG002.hs37d5.300x_chr20.bam 20:622510-623064 > test.bam
