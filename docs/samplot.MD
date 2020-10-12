@@ -30,12 +30,9 @@ Index the `.bam`:
 
 `samtools index HG002.hs37d5.300x_chr20.bam`
 
-Take a snapshot of an SV in the bam with `tabix`:
-
-`tabix HG002.hs37d5.300x_chr20.bam 20:622510-623064 > test.bam`
-
 Now, to run `samplot`:
 
+```
 samplot plot \
     -n HG002 \
     -b HG002.hs37d5.300x_chr20.bam \
@@ -44,5 +41,17 @@ samplot plot \
     -s 622510 \
     -e 623064 \
     -t DEL
+```
+
+Upload the result with:
 
 `dx upload 20_622510-6230640.png`
+
+To investigate the reads on the command line:
+
+```
+samtools view -b HG002.hs37d5.300x_chr20.bam 20:622510-623064 > test.bam
+samtools index test.bam
+samtools tview test.bam
+/ 20:622510
+```
