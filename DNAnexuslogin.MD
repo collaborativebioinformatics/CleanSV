@@ -14,7 +14,7 @@ Give the creator of the instance the ssh key and place into `~/.ssh/authorized_k
 
 To create an instance with 30 GB ram (per) 320 GB storage, 16 cores:
 
-`dx run app-cloud_workstation --ssh --instance-type │mem1_ssd1_x16`
+`dx run app-cloud_workstation --ssh --instance-type mem1_ssd1_x16`
 
 Type `0`, and write `24h` for 24hr job run.
 
