@@ -55,3 +55,7 @@ samtools index test.bam
 samtools tview test.bam
 / 20:622510
 ```
+
+Samplot image looks like:
+![image](https://user-images.githubusercontent.com/6568964/95706384-b8941300-0c24-11eb-89ec-e583ac04b312.png)
+
