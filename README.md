@@ -1,5 +1,7 @@
 # CleanSV
 
+[Slides](https://github.com/collaborativebioinformatics/CleanSV/blob/main/SV_filter_12Oct2020.pdf)
+
 ## What's the problem?
 
 Within clinical genomics, short-read sequencing is performed in order to inform/direct patient care. This has been immensely successful. 
