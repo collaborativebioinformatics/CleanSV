@@ -1,5 +1,7 @@
 # CleanSV
-
+<p align="center">
+  <img src="CleanSV_Logo.png">
+</p>
 [Slides](https://github.com/collaborativebioinformatics/CleanSV/blob/main/SV_filter_12Oct2020.pdf)
 
 ## Workflow
