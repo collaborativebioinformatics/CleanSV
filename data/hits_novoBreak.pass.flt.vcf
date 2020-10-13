@@ -1,0 +1,49 @@
+##fileformat=VCFv4.1
+##fileDate=20201013
+##INDIVIDUAL=TRUTH
+##phasing=none
+##FILTER=All filters passed
+##SAMPLE=<ID=TRUTH,Individual="TRUTH",Description="bamsurgeon spike-in">
+##INFO=<ID=CIPOS,Number=2,Type=Integer,Description="Confidence interval around POS for imprecise variants">
+##INFO=<ID=IMPRECISE,Number=0,Type=Flag,Description="Imprecise structural variation">
+##INFO=<ID=PRECISE,Number=0,Type=Flag,Description="Precise structural variation">
+##INFO=<ID=CT,Number=1,Type=String,Description="Paired-end signature induced connection type">
+##INFO=<ID=SVTYPE,Number=1,Type=String,Description="Type of structural variant">
+##INFO=<ID=SVLEN,Number=.,Type=Integer,Description="Difference in length between REF and ALT alleles">
+##INFO=<ID=SOMATIC,Number=0,Type=Flag,Description="Somatic mutation in primary">
+##INFO=<ID=GERMLINE,Number=0,Type=Flag,Description="Germline structural variant">
+##INFO=<ID=CHR2,Number=1,Type=String,Description="Chromosome for END coordinate in case of a translocation">
+##INFO=<ID=UNKNOWN_LEN,Number=0,Type=Flag,Description="Unknown the length of SV">
+##INFO=<ID=CONSENSUS,Number=1,Type=String,Description="Breakpoint consensus sequence">
+##INFO=<ID=END,Number=1,Type=Integer,Description="End position of the variant described in this record">
+##ALT=<ID=INV,Description=Inversion>
+##ALT=<ID=DUP,Description=Duplication>
+##ALT=<ID=DEL,Description=Deletion>
+##ALT=<ID=INS,Description=Insertion>
+##ALT=<ID=TRA,Description=Translocation>
+##FORMAT=<ID=GT,Number=1,Type=String,Description="Genotype">
+##contig=<ID=1>
+##contig=<ID=10>
+##contig=<ID=11>
+##contig=<ID=12>
+##contig=<ID=13>
+##contig=<ID=14>
+##contig=<ID=15>
+##contig=<ID=16>
+##contig=<ID=17>
+##contig=<ID=18>
+##contig=<ID=19>
+##contig=<ID=2>
+##contig=<ID=20>
+##contig=<ID=21>
+##contig=<ID=22>
+##contig=<ID=3>
+##contig=<ID=4>
+##contig=<ID=5>
+##contig=<ID=6>
+##contig=<ID=7>
+##contig=<ID=8>
+##contig=<ID=9>
+##contig=<ID=X>
+##contig=<ID=Y>
+#CHROM	POS	ID	REF	ALT	QUAL	FILTER	INFO	FORMAT	SPIKEIN
