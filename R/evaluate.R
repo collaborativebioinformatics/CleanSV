@@ -2,10 +2,11 @@
 
 suppressPackageStartupMessages(library(StructuralVariantAnnotation))
 suppressPackageStartupMessages(library(argparser))
+
 argp = arg_parser("Filters a raw GRIDSS VCF into somatic call subsets.")
-argp = add_argument(argp, "--truth", default="", help="Truth VCF")
-argp = add_argument(argp, "--input", default="", help="Input VCF")
-argp = add_argument(argp, "--output", default="", help="Annotated input VCF")
+argp = add_argument(argp, "--truth", default="/Users/evanbiederstedt/cleanSV/vcfs/colo829/truthset_somaticSVs_COLO829.vcf", help="Truth VCF")
+argp = add_argument(argp, "--input", default="/Users/evanbiederstedt/CleanSV/vcfs/colo829/manta/colo829_1/workspace/svHyGen/candidateSV.0000.vcf", help="Input VCF")
+argp = add_argument(argp, "--output", default="/Users/evanbiederstedt/downloads/output_colo829_1_manta_candidateSV.0000.vcf", help="Annotated input VCF")
 argp = add_argument(argp, "--maxgap", default=16, help="Valid overlapping thresholds of a maximum gap position between breakend intervals. See help(findBreakpointOverlaps)")  
 argp = add_argument(argp, "--sizemargin", default=100, help="Error margin in allowable size to prevent matching of events of different sizes, e.g. a 200bp event matching a 1bp event when maxgap is set to 200. See help(findBreakpointOverlaps)")
 argp = add_argument(argp, "--restrictMarginToSizeMultiple", default=0.5, help="Size restriction multiplier on event size. The default value of 0.5 requires that the breakpoint positions can be off by at maximum, half the event size. See help(findBreakpointOverlaps)")
