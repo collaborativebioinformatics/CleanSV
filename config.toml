@@ -1,0 +1,47 @@
+[[annotation]]
+file="repeats/simple.bed.gz"
+columns = [4]
+names=["simple"]
+ops=["self"]
+
+[[annotation]]
+file="repeats/interrupted.bed.gz"
+columns = [4]
+names=["interrupted"]
+ops=["self"]
+
+[[annotation]]
+file="repeats/rmsk.bed.gz"
+columns = [4]
+names=["rmsk"]
+ops=["self"]
+
+[[annotation]]
+file="repeats/selfchain.bed.gz"
+columns = [4]
+names=["selfchain"]
+ops=["self"]
+
+[[annotation]]
+file="repeats/segdups.bed.gz"
+columns = [4]
+names=["segdups"]
+ops=["self"]
+
+[[annotation]]
+file="repeats/wmaskdmask.bed.gz"
+columns = [4]
+names=["WmaskDmask"]
+ops=["self"]
+
+[[annotation]]
+file="repeats/numt.bed.gz"
+columns = [4]
+names=["nuMT"]
+ops=["self"]
+
+[[annotation]]
+file="repeats/hg19.gc5Base.bed.gz"
+columns = [5]
+names=["gc"]
+ops=["mean"]
