@@ -7,13 +7,21 @@
 
 ## Contributors
 Evan Biederstedt
+
 Daniel Cameron
+
 Ann McCartney, NIH
+
 Jim Havrilla
+
 Divya Kalra
+
 Michael Khayat
+
 Jingwen Ren
+
 Najeeb Syed
+
 Angad Jolly
 
 ## Workflow
