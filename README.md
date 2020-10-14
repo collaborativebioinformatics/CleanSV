@@ -6,23 +6,23 @@
 [Slides](https://github.com/collaborativebioinformatics/CleanSV/blob/main/SV_filter_12Oct2020.pdf)
 
 ## Contributors
-Evan Biederstedt
+Evan Biederstedt, HMS
 
-Daniel Cameron
+Daniel Cameron, Walter and Eliza Hall Institute of Medical Research
 
 Ann McCartney, NIH
 
-Jim Havrilla
+Jim Havrilla, Center for Cellular and Molecular Therapeutics
 
-Divya Kalra
+Divya Kalra, Baylor College of Medicine
 
-Michael Khayat
+Michael Khayat, Baylor College of Medicine
 
-Jingwen Ren
+Jingwen Ren, University of Southern California  
 
-Najeeb Syed
+Najeeb Syed, Sidra Medicine
 
-Angad Jolly
+Angad Jolly, 
 
 ## Workflow
 
