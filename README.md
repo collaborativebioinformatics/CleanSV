@@ -5,6 +5,17 @@
 
 [Slides](https://github.com/collaborativebioinformatics/CleanSV/blob/main/SV_filter_12Oct2020.pdf)
 
+## Contributors
+Evan Biederstedt
+Daniel Cameron
+Ann McCartney, NIH
+Jim Havrilla
+Divya Kalra
+Michael Khayat
+Jingwen Ren
+Najeeb Syed
+Angad Jolly
+
 ## Workflow
 
 <p align="center">
@@ -32,7 +43,7 @@ Having a higher quality SV call set would help reduce the time required to follo
 
 Moreover, it would enhance the ability to detect somatic variation using subtraction methods which rely on germline and somatic sequencing data as input. With a lower false positive call rate, presumably fewer somatic variants would be called and a higher proportion would be true positive calls. 
 
-# What is <this software>?
+# What is CleanSV?
 
 The major goals of this software are to: 
 
